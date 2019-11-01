@@ -1,67 +1,83 @@
-body{
-	background-color: #f6f6f6
-
+body {
+   background-color: #f6f6f6
 }
-#painting{
-	
-	width: 400px;
-	height: 400px;
-	background-color: #fff4bd;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-left: auto;
-	box-shadow: 4px 4px #808080;
-
-
+#painting {
+   height: 400px;
+   width: 400px;
+   background-color: #fff4db;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   box-shadow: 5px 5px 5px;
 }
-#toprow{
-	height: 290px;
-	width: 290px;
+#toprow {
+    width:400px;
+    height:290px;
 }
-#bigbox{
-	height: 290px;
-	width: 290px;
+.red {
+    background-color: red ;
 }
-#topdivider{
-	width: 10px;
-	height: 290px;
+#bigbox {
+    width:290px;
+    height:290px;
 }
-.blue{
-	background-color: blue;
-}
-.yellow{
-	background-color: yellow;s
-
-}
-.black{
-	background-color: black;
-}
-.red{
-	background-color: red;
-}
-.right{
-	float: right;
-}
-#divder1{
-	height: 290px;
-	width: 10px;
-}
-#topleftcolumn{
-	width: 10px;
-	height: 290px;
-
+.right {
+    float: right;
 }
 .mediumbox{
-	height: 140px;
-	width: 100px;
+    width:110px;
+    height:145px;
 }
-
-#divider2{
-	height: 10px;
-	width: 100px;
-	float: left;
+#topdivider{
+    width:10px;
+    height:290px;
 }
-.mediumbox2{
-	height: 140px;
-	width: 100px
+.black {
+    background-color: black;
+}
+#divider2 {
+    width:110px;
+    height:10px;
+}
+#botrow {
+    width:400px;
+    height: 110px;
+}
+#botdivider {
+    width:400px;
+    height: 10px;
+    
+}
+#bluebox {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+.botrowdivider {
+  width: 10px;
+  height: 100px;
+}
+.inlineblock {
+  display: inline-block;
+  margin-right: -4px;
+}
+#botright {
+  width: 20px;
+  height: 100px;
+}
+#midbotbox {
+  width: 260px;
+  height: 100px;
+}
+#smallestbox {
+  width: 20px;
+  height: 45px;
+}
+#smallestdivider {
+  width: 20px;
+  height: 10px;
+}
+.gold {
+  background-color: gold;
 }
